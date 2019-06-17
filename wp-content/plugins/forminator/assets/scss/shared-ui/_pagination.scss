@@ -1,0 +1,18 @@
+@include body-class(true) {
+
+	.sui-pagination-active-filters {
+
+		.sui-active-filter {
+			display: flex;
+			align-items: center;
+			padding-right: 10px;
+
+			.sui-active-filter-remove {
+				margin-top: -4px;
+				margin-right: -10px;
+				margin-bottom: -4px;
+				border-width: 0;
+			}
+		}
+	}
+}
